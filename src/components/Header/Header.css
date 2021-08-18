@@ -42,6 +42,15 @@
 }
 
 /********** QUOTE BUTTON **********/
+
+.btn-box{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
@@ -51,6 +60,7 @@
     border-radius: 100px;
     transition: all .2s;
     position: relative;
+    
 }
 
 .btn:hover{
@@ -119,6 +129,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
 }
 
 .arrow{
@@ -128,6 +139,11 @@
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     
+}
+
+.arrow:hover{
+    color: black;
+    cursor: pointer;
 }
 
 @keyframes arrowIn{
