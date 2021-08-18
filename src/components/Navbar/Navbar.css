@@ -40,11 +40,27 @@
 .nav-items a{
     color: white;
     text-decoration: none;
+    
 }
 
-.nav-items a:hover,
+/* .nav-items a:hover,
 .nav-items a:active{
-    /* color: blue; */
-    border-top: .1875rem solid white;
+    border-bottom: .1px solid white;
+
+}  */
+
+
+.nav-items a:after{
+    content: "";  
+    display: block; 
+    width: 0%; 
+    border-bottom: 1px solid white; 
+    transition: .5s;
+    padding-bottom: 2px; 
 
 }
+
+.nav-items a:hover:after{
+    width: 100%;
+}
+
