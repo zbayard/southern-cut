@@ -1,4 +1,7 @@
 import './Header.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Header = ()=>{
@@ -11,7 +14,7 @@ const Header = ()=>{
             <a href="#" className="btn btn-white btn-animated">Get a quote today</a>
 
             <div className="arrow-box">
-                <img src='arrow' alt="arrow" className="arrow"/>
+                <FontAwesomeIcon className="arrow" icon={faAngleDoubleDown}  />
             </div>
 
         </div>
