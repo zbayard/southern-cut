@@ -11,7 +11,13 @@ const Header = ()=>{
             <div className="logo-box">
                 <img src="" alt="Logo" className="logo"/>
             </div>
-            <a href="#" className="btn btn-white btn-animated">Get a quote today</a>
+
+            <div className="btn-box">
+                <a href="#" className="btn btn-white btn-animated">Get a quote today</a>
+
+            </div>
+
+            
 
             <div className="arrow-box">
                 <FontAwesomeIcon className="arrow" icon={faAngleDoubleDown}  />
