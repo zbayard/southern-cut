@@ -129,6 +129,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
 }
 
 .arrow{
@@ -138,6 +139,11 @@
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
     
+}
+
+.arrow:hover{
+    color: black;
+    cursor: pointer;
 }
 
 @keyframes arrowIn{

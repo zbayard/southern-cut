@@ -20,7 +20,7 @@ const Header = ()=>{
             
 
             <div className="arrow-box">
-                <FontAwesomeIcon className="arrow" icon={faAngleDoubleDown}  />
+                <FontAwesomeIcon className="arrow" color="white" icon={faAngleDoubleDown} size="2x" />
             </div>
 
         </div>
