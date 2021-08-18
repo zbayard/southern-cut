@@ -1,3 +1,17 @@
-.App{
-  text-align: center;
+/* NAVBAR */
+.navbar-container{
+  height: 10vh;
+
 }
+
+.main-nav-wrapper{
+  
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
