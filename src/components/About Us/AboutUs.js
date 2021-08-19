@@ -1,14 +1,6 @@
 import './AboutUs.css';
-import {useState} from 'react';
 
 const AboutUs = ()=>{
-
-    const [hovering, setHovering] = useState(false)
-
-    const isHovering = ()=>{
-        console.log(hovering)
-
-    }
 
     return (
         <div id="about" className="about-us">
@@ -34,7 +26,6 @@ const AboutUs = ()=>{
                     <p>some bullshit in here</p>
                 </div>
             </div>
-           
         </div>
     );
 };

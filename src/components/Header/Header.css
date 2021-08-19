@@ -1,5 +1,4 @@
 .header{
-    
     position: relative;
     background: turquoise;
     background-size: cover;
@@ -7,7 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .logo-box{
@@ -41,7 +39,7 @@
     }
 }
 
-/********** QUOTE BUTTON **********/
+/********** quote button **********/
 
 .btn-box{
     position: absolute;
@@ -61,7 +59,6 @@
     border-radius: 100px;
     transition: all .2s;
     position: relative;
-    
 }
 
 .btn:hover{
@@ -102,13 +99,11 @@
     opacity: 0;
 }
 
-
 @keyframes moveInBottom{
     0%{
         opacity: 0;
         transform: translateY(30px);
     }
-
 
     100%{
         opacity: 1;
@@ -121,8 +116,8 @@
     animation-fill-mode: backwards;
 }
 
-/********* ARROW SCROLL DOWN *********/
 
+/********* arrow scroll down *********/
 
 .arrow-box{
     position: absolute;
@@ -130,7 +125,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    
 }
 
 .arrow{
@@ -139,7 +133,6 @@
     animation-fill-mode: backwards;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    
 }
 
 .arrow:hover{

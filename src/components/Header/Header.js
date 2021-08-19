@@ -1,8 +1,7 @@
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
-
-
+import {Link} from 'react-scroll';
 
 const Header = ()=>{
 
@@ -14,17 +13,15 @@ const Header = ()=>{
 
             <div className="btn-box">
                 <a href="#" className="btn btn-white btn-animated">Get a quote today</a>
-
             </div>
-
-            
 
             <div className="arrow-box">
-                <FontAwesomeIcon className="arrow" color="white" icon={faAngleDoubleDown} size="2x" />
+                <Link smooth={true} to="about" href="#">
+                    <FontAwesomeIcon className="arrow" color="white" icon={faAngleDoubleDown} size="2x" />  
+                </Link>
             </div>
-
         </div>
-    )
+    );
 
 };
 export default Header;
