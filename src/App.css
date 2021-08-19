@@ -15,8 +15,16 @@ a{
 h1{
   font-family: 'Roboto' , sans-serif;
   font-weight: 700;
-  font-size: 180px;
+  font-size: 150px;
   color: forestgreen;
   letter-spacing: 5px;
 }
 
+p{
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: black;
+  letter-spacing: 2px;
+  
+}

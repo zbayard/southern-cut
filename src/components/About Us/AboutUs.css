@@ -3,52 +3,70 @@
     position: relative;
     background: white;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .w-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    height: 50vh;
+}
+
+.w-box{
+    height: 25vh;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     
 }
 
-.what-box{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+.what{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
-.why-box{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-bottom: 1px solid black;
+.why{
+    border-bottom: 2px solid black;
 }
 
-.where-box{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-right: 1px solid black;
+.where{
+    border-right: 2px solid black;    
 }
 
-.when-box{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;   
+.w-box h1{
+    transition: all .75s;
 }
+.w-box h2{
+    transition: all .75s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    transform: scale(0%);
+}
+
+.w-box:hover h1{
+    font-size: 30px;
+    
+    transform: scale(0%);
+}
+
+.w-box:hover h2{
+    transform: scale(100%);
+}
+
+
+.w-box p{
+    position: absolute;
+}
+
+
+
+
+
 
