@@ -12,11 +12,11 @@
 .w-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 50vh;
+    height: 60vh;
 }
 
 .w-box{
-    height: 25vh;
+    height: 30vh;
     width: 500px;
     display: flex;
     justify-content: center;
