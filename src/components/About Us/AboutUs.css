@@ -1,7 +1,7 @@
 .about-us{
     height: 100vh;
-    /* position: relative; */
-    background: tomato;
+    position: relative;
+    background: white;
     background-size: cover;
 }
 
@@ -9,18 +9,46 @@
 .w-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
+    
 }
 
-.w-box{
-    height: 50vh;
+.what-box{
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
-.ws{
-    
+.why-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid black;
 }
+
+.where-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-right: 1px solid black;
+}
+
+.when-box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+

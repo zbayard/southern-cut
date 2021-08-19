@@ -12,3 +12,11 @@ a{
   letter-spacing: 2px;
 }
 
+h1{
+  font-family: 'Roboto' , sans-serif;
+  font-weight: 700;
+  font-size: 180px;
+  color: forestgreen;
+  letter-spacing: 5px;
+}
+
