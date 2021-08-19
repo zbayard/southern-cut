@@ -1,0 +1,26 @@
+.about-us{
+    height: 100vh;
+    /* position: relative; */
+    background: tomato;
+    background-size: cover;
+}
+
+
+.w-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.w-box{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ws{
+    
+}
