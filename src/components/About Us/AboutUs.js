@@ -11,7 +11,7 @@ const AboutUs = ()=>{
     }
 
     return (
-        <div className="about-us">
+        <div id="about" className="about-us">
             <div className="w-container">
                 <div className="w-box what">
                     <h1 className="ws">What</h1>
