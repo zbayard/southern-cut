@@ -7,7 +7,7 @@ import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 const Header = ()=>{
 
     return(
-        <div className="header">
+        <div id='home' className="header">
             <div className="logo-box">
                 <img src="" alt="Logo" className="logo"/>
             </div>

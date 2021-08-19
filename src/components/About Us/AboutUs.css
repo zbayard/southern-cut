@@ -1,0 +1,84 @@
+.about-us{
+    height: 100vh;
+    position: relative;
+    background: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.w-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60vh;
+}
+
+.w-box{
+    height: 30vh;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.what{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.why{
+    border-bottom: 2px solid black;
+}
+
+.where{
+    border-right: 2px solid black;    
+}
+
+
+/* ***** H1s ***** */
+.w-box h1{
+    transition: all .75s;
+    opacity: 1;
+}
+.w-box:hover h1{
+    font-size: 30px;
+    
+    opacity: 0;
+}
+
+/* ***** H2s ***** */
+.w-box h2{
+    transition: all .75s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10px;
+    opacity: 0;
+}
+
+.w-box:hover h2{
+    opacity: 1;
+    transition-delay: .75s;
+}
+
+/* ***** P's ***** */
+.w-box p{
+    position: absolute;
+    opacity: 0;
+    transition: all .75s;
+}
+
+.w-box:hover p{
+    opacity: 1;
+    transition-delay: .75s;
+}
+
+
+
+
+
+
