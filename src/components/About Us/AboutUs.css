@@ -75,6 +75,21 @@
 }
 
 
+/****** button ******/
+
+.btn-box-about{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-green{
+    background-color: forestgreen;
+    color: white;
+}
+
+
 
 
 

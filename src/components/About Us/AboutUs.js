@@ -1,4 +1,5 @@
 import './AboutUs.css';
+import {Link} from 'react-scroll';
 
 const AboutUs = ()=>{
 
@@ -25,6 +26,12 @@ const AboutUs = ()=>{
                 <h2>When</h2>
                     <p>some bullshit in here</p>
                 </div>
+            </div>
+
+            <div className="btn-box-about">
+                <Link smooth={true} to="home" href="#">
+                    <a href="#" className="btn btn-green btn-animated btn-about">Check out our services</a>
+                </Link>
             </div>
         </div>
     );
