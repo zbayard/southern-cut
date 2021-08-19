@@ -1,4 +1,5 @@
 import './Header.css';
+import logo from './logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDoubleDown } from '@fortawesome/free-solid-svg-icons'
 import {Link} from 'react-scroll';
@@ -8,7 +9,7 @@ const Header = ()=>{
     return(
         <div id='home' className="header">
             <div className="logo-box">
-                <img src="" alt="Logo" className="logo"/>
+                <img src={logo} alt="Logo" className="logo"/>
             </div>
 
             <div className="btn-box">

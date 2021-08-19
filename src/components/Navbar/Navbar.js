@@ -1,4 +1,5 @@
 import './Navbar.css';
+import logo from './main-logo.png'
 import {Link} from 'react-scroll';
 
 const Navbar = ()=>{
@@ -8,7 +9,7 @@ const Navbar = ()=>{
             <nav className='navbar-nav'>
                 <div></div>
                 <div className="nav-logo">
-                    <Link smooth={true} to="home" href="#">Southern Cut</Link>
+                    <Link smooth={true} to="home" href="#"><img src={logo} alt="Southern Cut"></img></Link>
                 </div>
                 
                 <div className="spacer"/>
