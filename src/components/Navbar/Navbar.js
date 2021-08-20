@@ -1,5 +1,5 @@
 import './Navbar.css';
-import logo from './main-logo.png'
+import logo from './logonav.png'
 import {Link} from 'react-scroll';
 
 const Navbar = ()=>{
