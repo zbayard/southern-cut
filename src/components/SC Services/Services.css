@@ -24,11 +24,9 @@ darkgreen: 0d5d35 */
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border-right: black solid 2px;
 
 }
-
-
-
 
 .items{
     width: 50%;
