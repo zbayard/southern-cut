@@ -1,0 +1,88 @@
+/* lightgreen: 3aab47
+darkgreen: 0d5d35 */
+
+.services{
+    position: relative;
+    background: white;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services-container{
+    display: flex;
+    width: 100%;
+    /* flex-direction: row; */
+
+}
+
+.statement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+
+
+.items{
+    width: 50%;
+}
+
+/****** service grid ******/
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+}
+
+.grid-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/****** grid elements ******/
+
+.list h2{
+    font-weight: 900;
+    margin: 0;
+}
+
+
+/* .list h2:nth-child(odd){
+    color: #3aab47;
+} */
+
+.list h2:nth-child(even){
+    color: #0d5d35;
+}
+
+/****** we do it all ******/
+
+.do{
+    color: #3aab47;
+}
+.black{
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.green{
+    color: #0d5d35;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

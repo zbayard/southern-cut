@@ -23,7 +23,7 @@ const Navbar = ()=>{
                             <Link smooth={true} to="about" href="#">About Us</Link>
                         </li>
                         <li>
-                            <a href="#">Services</a>
+                            <Link smooth={true} to="service" href="#">Services</Link>
                         </li>
                         <li>
                             <a href="#">Gallery</a>
