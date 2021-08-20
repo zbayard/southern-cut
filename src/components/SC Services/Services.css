@@ -48,6 +48,7 @@ darkgreen: 0d5d35 */
     width: 100%;
     text-align: center;
     
+    
 }
 
 /****** grid elements ******/
@@ -55,6 +56,7 @@ darkgreen: 0d5d35 */
 .list h2{
     font-weight: 900;
     margin: 0;
+    
 }
 
 
@@ -68,19 +70,21 @@ darkgreen: 0d5d35 */
 
 /****** we do it all ******/
 
+.statement h1{
+    margin: 0;
+}
+
 .do{
     color: #3aab47;
 }
 .black{
     color: black;
     letter-spacing: 3px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+   
 }
 
 .green{
     color: #0d5d35;
     letter-spacing: 3px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    
 }
