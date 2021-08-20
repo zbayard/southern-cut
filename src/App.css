@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+/* lightgreen: 3aab47
+darkgreen: 0d5d35 */
+
+
 body{
   margin: auto;
   box-sizing: border-box;
@@ -16,7 +21,7 @@ h1{
   font-family: 'Roboto' , sans-serif;
   font-weight: 700;
   font-size: 150px;
-  color: forestgreen;
+  color: #3aab47;
   letter-spacing: 5px;
 }
 
@@ -24,7 +29,7 @@ h2{
   font-family: 'Roboto' , sans-serif;
   font-weight: 700;
   font-size: 30px;
-  color: forestgreen;
+  color: #3aab47;
   letter-spacing: 2px;
 }
 
