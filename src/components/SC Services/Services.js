@@ -4,7 +4,7 @@ const Services = ()=>{
 
     const services = [
         {name: 'Landscape Design', description: ''},
-        {name: 'Planting/Mulching', description: ''},
+        {name: 'Planting & Mulching', description: ''},
         {name: 'Lawn Care', description: ''},
         {name: 'Hardscapes', description: ''},
         {name: 'Irrigation', description: ''},
@@ -14,14 +14,14 @@ const Services = ()=>{
         {name: 'Concrete', description: ''},
         {name: 'Drainage', description: ''},
         {name: 'Rock Installation', description: ''},
-        {name: 'Fertilization/Aeration', description: ''}
+        {name: 'Fertilization & Aeration', description: ''}
     ]
 
     const serviceH2s = services.map((h2)=>{
        return(
-           <div className="grid-box">
-               <h2>{h2.name}</h2>
-            </div>
+                <div className="grid-box">
+                   <h2>{h2.name}</h2>
+               </div>
        )
     });
 
@@ -29,9 +29,9 @@ const Services = ()=>{
         <div id="service" className="services">
             <div className="services-container">
                 <div className='items statement'>
-                    <h1 className="black">We</h1>
-                    <h1 className="black do">do</h1>
-                    <h1 className="green">everything.</h1>
+                    <h1 className="black">we</h1>
+                    <h1 className="do-it">do it</h1>
+                    <h1 className="green">all.</h1>
                 </div>
                 <div className='items list'>
                     {serviceH2s}

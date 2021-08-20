@@ -1,3 +1,6 @@
+/* lightgreen: 3aab47
+darkgreen: 0d5d35 */
+
 .services{
     position: relative;
     background: white;
@@ -20,6 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
 }
 
@@ -28,9 +32,9 @@
 
 .items{
     width: 50%;
-    
-    
 }
+
+/****** service grid ******/
 
 .list{
     display: grid;
@@ -41,25 +45,34 @@
 .grid-box{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
 }
 
-/* lightgreen: 3aab47
-darkgreen: 0d5d35 */
+/****** grid elements ******/
+
 .list h2{
     font-weight: 900;
+    margin: 0;
 }
 
 
-.list h2:nth-child(odd){
+/* .list h2:nth-child(odd){
     color: #3aab47;
-}
+} */
 
 .list h2:nth-child(even){
     color: #0d5d35;
 }
 
+/****** we do it all ******/
 
+.do{
+    color: #3aab47;
+}
 .black{
     color: black;
     letter-spacing: 3px;

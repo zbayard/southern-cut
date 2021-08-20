@@ -29,7 +29,7 @@ const AboutUs = ()=>{
             </div>
 
             <div className="btn-box-about">
-                <Link smooth={true} to="home" href="#">
+                <Link smooth={true} to="services" href="#">
                     <a href="#" className="btn btn-green btn-animated btn-about">Check out our services</a>
                 </Link>
             </div>
