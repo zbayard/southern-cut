@@ -7,14 +7,14 @@ const Services = ()=>{
         {name: 'Planting & Mulching', description: ''},
         {name: 'Lawn Care', description: ''},
         {name: 'Hardscapes', description: ''},
-        {name: 'Irrigation', description: ''},
+        {name: 'Aeration & Fertilization', description: ''},
         {name: 'Pool Demolition', description: ''},
         {name: 'Grading', description: ''},
         {name: 'Hedging', description: ''},
         {name: 'Concrete', description: ''},
         {name: 'Drainage', description: ''},
         {name: 'Rock Installation', description: ''},
-        {name: 'Fertilization & Aeration', description: ''}
+        {name: 'Irrigation', description: ''}
     ]
 
     const serviceH2s = services.map((h2)=>{

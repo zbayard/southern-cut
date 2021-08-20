@@ -153,6 +153,7 @@
 
 #vid-header{
     position: fixed;
+    /* width: auto; */
     z-index: -1;
 }
 
