@@ -9,22 +9,22 @@ const AboutUs = ()=>{
                 <div className="w-box what">
                     <h1 className="ws">what</h1>
                     <h2>What</h2>
-                    <p>some bullshit in here</p>
+                    <p>This is a sentence that will describe what southern cut does.</p>
                 </div>
                 <div className="w-box why">
                     <h1 className="ws">why</h1>
                     <h2>Why</h2>
-                    <p>some bullshit in here</p>
+                    <p>This is a sentence that will describe why southern cut does what they do.</p>
                 </div>
                 <div className="w-box where">
                     <h1 className="ws">where</h1>
                     <h2>Where</h2>
-                    <p>some bullshit in here</p>
+                    <p>This is a sentence that will describe where southern cut exists.</p>
                 </div>
                 <div className="w-box when">
                 <h1 className="ws">when</h1>
                 <h2>When</h2>
-                    <p>some bullshit in here</p>
+                    <p>This is a sentence that will describe when southern cut began.</p>
                 </div>
             </div>
 
