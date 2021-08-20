@@ -16,10 +16,49 @@
 
 }
 
+.statement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
 .items{
     width: 50%;
     
+    
 }
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 5px;
+}
+
+.grid-box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* lightgreen: 3aab47
+darkgreen: 0d5d35 */
+.list h2{
+    font-weight: 900;
+}
+
+
+.list h2:nth-child(odd){
+    color: #3aab47;
+}
+
+.list h2:nth-child(even){
+    color: #0d5d35;
+}
+
 
 .black{
     color: black;
