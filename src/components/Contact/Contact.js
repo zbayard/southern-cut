@@ -39,9 +39,9 @@ const Contact = ()=>{
            <div className="text-box">
                <div className="contact-head">
                     <h1>say hey</h1>
-                    <p>
+                    <h2>
                         I promise I'll say it back.
-                    </p>
+                    </h2>
                     <span className="success-message">{successMessage}</span>
                </div>
            </div>
