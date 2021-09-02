@@ -29,7 +29,7 @@ const Navbar = ()=>{
                             <a href="#">Gallery</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <Link smooth={true} to="contact" href="#">Contact</Link>
                         </li>
                     </ul>
                 </div>
