@@ -9,8 +9,18 @@
     align-items: center;
 }
 
+.text-box{
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
 .form-container{
-    position: relative;
+  height: 50%;
+}
+
+
+.form-box{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +54,24 @@
   }
 
   .contact textarea {
-    height: 12.2rem !important;
+    height: 130px !important;
+    margin-left: 15px;
   }
 
+
+  .message-container{
+      height: 100%;
+  }
+
+
+  .btn-box-about{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-green{
+    background-color: #3aab47;
+    color: white;
+}

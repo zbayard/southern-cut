@@ -38,15 +38,13 @@ const Contact = ()=>{
         <div id="contact" className="contact">
            <div className="text-box">
                <div className="contact-head">
-                    <h1>say hey</h1>
-                    <h2>
-                        I promise I'll say it back.
-                    </h2>
+                    <h1>Contact Us</h1>
+                    <h2>(980) 223-6944</h2>
                     <span className="success-message">{successMessage}</span>
                </div>
            </div>
            <div className="form-container">
-               <form onSubmit={handleSubmit(onSubmit)}>
+               <form className="form-box" onSubmit={handleSubmit(onSubmit)}>
                     
                         <div className="input-container">
                             {/* NAME INPUT */}
@@ -149,7 +147,9 @@ const Contact = ()=>{
                             <span className="error-message">
                                 {errors.description && errors.description.message}
                             </span>
-                            <button className="btn btn-green btn-animated btn-about" type="submit">SEND</button>
+                            <div className="btn-box-about">
+                                <a className="btn btn-green btn-animated btn-about" type="submit">SEND</a>
+                            </div>
                         </div>
                     
                </form>
